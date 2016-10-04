@@ -1,0 +1,104 @@
+main {
+	box-sizing: border-box;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: grey;
+}
+
+nav ul {
+	display: inline-block;
+	position: absolute;
+	margin-top: 20px;
+	margin-right: 500px;
+	margin-bottom: 5px;
+	margin-left: 80px;
+}
+
+nav .icon-img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-bottom: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+li:nth-child(1) {
+	left: 90px;
+}
+
+li:nth-child(2) {
+	left: 141px;
+}
+
+li:nth-child(3) {
+	left: 200px;
+}
+
+nav li {
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+nav li::after {
+	content: "|";
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+a:hover {
+	color: black;
+}
+
+body {
+	background: url('images/outerspace_landscape.jpeg') no-repeat;
+	background-size: cover;
+}
+
+main {
+	min-width: 100px;
+	padding-top: 150px;
+	padding-left: 340px;
+	padding-bottom: 90px;
+}
+
+.box {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	padding-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px dotted green;
+}
+
+.hero-img {
+	margin-top: 90px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.spacecat {
+	left: -90px;
+	top:-90px;
+}
+
+.spacedog {
+	right: -60px;
+	bottom: -120px;
+}

@@ -28,7 +28,7 @@ nav li {
 	display: inline-block;
 }
 
-nav li::after {
+nav li:after {
 	content: "|"
 	margin-left: 5px;
 }
